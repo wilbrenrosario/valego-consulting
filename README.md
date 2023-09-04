@@ -1,4 +1,13 @@
 ## COMENZARE CON EL PROJECTO, AVISARE CUANDO ESTE LISTO.
+# Tecnologias y herramientas
+* .Net Core
+* Clean Architecture
+* Angular 16+
+* CQRS
+* DI
+* Consumo de api rest
+* ENPOINT: https://www.bitmex.com/api/explorer/#!/Announcement/Announcement_get
+
 
 # valego-consulting
 
