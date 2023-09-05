@@ -1,0 +1,297 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Wilbren\\Desktop\\valego-consulting\\valego-consulting\\valego.api\\valego.api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Wilbren\\Desktop\\valego-consulting\\valego-consulting\\valego.api\\valego.api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Wilbren\\Desktop\\valego-consulting\\valego-consulting\\valego.api\\valego.api.csproj",
+        "projectName": "valego.api",
+        "projectPath": "C:\\Users\\Wilbren\\Desktop\\valego-consulting\\valego-consulting\\valego.api\\valego.api.csproj",
+        "packagesPath": "C:\\Users\\Wilbren\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Wilbren\\Desktop\\valego-consulting\\valego-consulting\\valego.api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Wilbren\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Wilbren\\Desktop\\valego-consulting\\valego-consulting\\valego.infrastructure\\valego.infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Wilbren\\Desktop\\valego-consulting\\valego-consulting\\valego.infrastructure\\valego.infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Wilbren\\Desktop\\valego-consulting\\valego-consulting\\valego.application\\valego.application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Wilbren\\Desktop\\valego-consulting\\valego-consulting\\valego.application\\valego.application.csproj",
+        "projectName": "valego.application",
+        "projectPath": "C:\\Users\\Wilbren\\Desktop\\valego-consulting\\valego-consulting\\valego.application\\valego.application.csproj",
+        "packagesPath": "C:\\Users\\Wilbren\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Wilbren\\Desktop\\valego-consulting\\valego-consulting\\valego.application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Wilbren\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Wilbren\\Desktop\\valego-consulting\\valego-consulting\\valego.core\\valego.core.csproj": {
+                "projectPath": "C:\\Users\\Wilbren\\Desktop\\valego-consulting\\valego-consulting\\valego.core\\valego.core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Wilbren\\Desktop\\valego-consulting\\valego-consulting\\valego.core\\valego.core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Wilbren\\Desktop\\valego-consulting\\valego-consulting\\valego.core\\valego.core.csproj",
+        "projectName": "valego.core",
+        "projectPath": "C:\\Users\\Wilbren\\Desktop\\valego-consulting\\valego-consulting\\valego.core\\valego.core.csproj",
+        "packagesPath": "C:\\Users\\Wilbren\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Wilbren\\Desktop\\valego-consulting\\valego-consulting\\valego.core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Wilbren\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Wilbren\\Desktop\\valego-consulting\\valego-consulting\\valego.infrastructure\\valego.infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Wilbren\\Desktop\\valego-consulting\\valego-consulting\\valego.infrastructure\\valego.infrastructure.csproj",
+        "projectName": "valego.infrastructure",
+        "projectPath": "C:\\Users\\Wilbren\\Desktop\\valego-consulting\\valego-consulting\\valego.infrastructure\\valego.infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Wilbren\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Wilbren\\Desktop\\valego-consulting\\valego-consulting\\valego.infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Wilbren\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Wilbren\\Desktop\\valego-consulting\\valego-consulting\\valego.application\\valego.application.csproj": {
+                "projectPath": "C:\\Users\\Wilbren\\Desktop\\valego-consulting\\valego-consulting\\valego.application\\valego.application.csproj"
+              },
+              "C:\\Users\\Wilbren\\Desktop\\valego-consulting\\valego-consulting\\valego.core\\valego.core.csproj": {
+                "projectPath": "C:\\Users\\Wilbren\\Desktop\\valego-consulting\\valego-consulting\\valego.core\\valego.core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\valego.web.mvc.props" />
+</Project>

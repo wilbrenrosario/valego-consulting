@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{90525B01-F599-4485-9E1E-0565FFDB24CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{04F8B876-AC83-4F0E-8331-B0179086C6F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "valego.core", "valego.core\valego.core.csproj", "{60ECFD27-4151-4C04-BD33-11733EBC5280}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "valego.application", "valego.application\valego.application.csproj", "{A46F844E-92A2-4519-9244-5CCE0F864057}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "valego.infrastructure", "valego.infrastructure\valego.infrastructure.csproj", "{24C010B1-3096-4BB2-9821-E15980B6E668}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "valego.web.mvc", "valego.web.mvc\valego.web.mvc.csproj", "{1EDD3ADE-2480-46DD-B76E-F0A35885F067}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "valego.api", "valego.api\valego.api.csproj", "{9A020A4F-D736-4DC0-98DE-AE07E2F747CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60ECFD27-4151-4C04-BD33-11733EBC5280}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60ECFD27-4151-4C04-BD33-11733EBC5280}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60ECFD27-4151-4C04-BD33-11733EBC5280}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60ECFD27-4151-4C04-BD33-11733EBC5280}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A46F844E-92A2-4519-9244-5CCE0F864057}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A46F844E-92A2-4519-9244-5CCE0F864057}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A46F844E-92A2-4519-9244-5CCE0F864057}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A46F844E-92A2-4519-9244-5CCE0F864057}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24C010B1-3096-4BB2-9821-E15980B6E668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24C010B1-3096-4BB2-9821-E15980B6E668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24C010B1-3096-4BB2-9821-E15980B6E668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24C010B1-3096-4BB2-9821-E15980B6E668}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EDD3ADE-2480-46DD-B76E-F0A35885F067}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EDD3ADE-2480-46DD-B76E-F0A35885F067}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EDD3ADE-2480-46DD-B76E-F0A35885F067}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EDD3ADE-2480-46DD-B76E-F0A35885F067}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A020A4F-D736-4DC0-98DE-AE07E2F747CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A020A4F-D736-4DC0-98DE-AE07E2F747CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A020A4F-D736-4DC0-98DE-AE07E2F747CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A020A4F-D736-4DC0-98DE-AE07E2F747CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{60ECFD27-4151-4C04-BD33-11733EBC5280} = {90525B01-F599-4485-9E1E-0565FFDB24CC}
+		{A46F844E-92A2-4519-9244-5CCE0F864057} = {90525B01-F599-4485-9E1E-0565FFDB24CC}
+		{24C010B1-3096-4BB2-9821-E15980B6E668} = {90525B01-F599-4485-9E1E-0565FFDB24CC}
+		{1EDD3ADE-2480-46DD-B76E-F0A35885F067} = {90525B01-F599-4485-9E1E-0565FFDB24CC}
+		{9A020A4F-D736-4DC0-98DE-AE07E2F747CA} = {90525B01-F599-4485-9E1E-0565FFDB24CC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78AAA58D-E125-48A7-871A-1A1778480E9E}
+	EndGlobalSection
+EndGlobal
