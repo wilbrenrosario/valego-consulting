@@ -19,6 +19,7 @@ Antes de correr el proyecto, generar la migracion de la base de datos utilizando
 * DI
 * Consumo de api rest
 * Base de datos SQL Server
+* Entity Framework
 * ENPOINT: https://www.bitmex.com/api/explorer/#!/Announcement/Announcement_get
 
 
