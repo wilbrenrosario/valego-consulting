@@ -1,12 +1,33 @@
-## COMENZARE CON EL PROJECTO, AVISARE CUANDO ESTE LISTO.
+## Comentario
+Saludos!,
+
+Espero haber entendido correctamente las instrucciones, pense utilizar Angular para el cliente, pero lo descarte ya que no estaba como opcion en la solicitud, en este proyecto con .net 7 y sql server, se integro las tecnologias y patrones de diseño mencionados mas abajo. En el proyecto podras ver una soluccion donde tienes la opcion de indicarle al proyecto de iniciar con la solucion [valego.api] la cual te levantara una API con swagger haciendo uso del consumo de enpoint y la muestra de data desde su db.
+
+Y tambien de manera visual tienes una solucion [valego.web.mvc] sencilla, que de manera visual muestra la data desde su DB, actualiza/llena la base de datos haciendo consulta al enpoint externo y un pequeño filtro mediante sus titulos.
+
+Dejare muestras de imagenes igualmente. En fin, espero sea de su agrado.
+
 # Tecnologias y herramientas
-* .Net Core
+* .Net Core 7
 * Clean Architecture
-* Angular 16+
+* WEB MVC
 * CQRS
 * DI
 * Consumo de api rest
+* Base de datos SQL Server
 * ENPOINT: https://www.bitmex.com/api/explorer/#!/Announcement/Announcement_get
+
+
+
+# Visuales
+![estructura](https://github.com/wilbrenrosario/valego-consulting/assets/41119318/6cecde76-ed70-4b70-a54b-ede7fd65d873)
+
+![api](https://github.com/wilbrenrosario/valego-consulting/assets/41119318/2091bbf5-141d-4b0f-8755-d5290a6be335)
+
+![web mvc](https://github.com/wilbrenrosario/valego-consulting/assets/41119318/573dfcb8-d791-47b9-834a-ad79a84a02db)
+
+
+
 
 
 # valego-consulting
