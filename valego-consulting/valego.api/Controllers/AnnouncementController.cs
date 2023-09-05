@@ -1,6 +1,7 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using valego.core.Models;
+using valego.infrastructure.Sql.Commands.FiltrarPorTitulo;
 using valego.infrastructure.Sql.Commands.GenerarDataEnDB;
 using valego.infrastructure.Sql.Querys.ObtenerData;
 
@@ -28,6 +29,14 @@ namespace valego.api.Controllers
         {
             var lista = await mediator.Send(new ObtenerDataCommand());
             return (List<Announcement>)lista;
+        }
+
+        [HttpPost]
+        public async Task<ActionResult<IEnumerable<Announcement>>> FiltrarPorTitulo(string buscar)
+        {
+            
+            var data = await mediator.Send(new FiltrarPorTituloCommand(buscar));
+            return (List<Announcement>)data;
         }
     }
 }

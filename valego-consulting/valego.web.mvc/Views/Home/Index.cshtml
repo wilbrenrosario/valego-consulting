@@ -1,8 +1,37 @@
-﻿@{
+﻿@using valego.core.Models;
+@model IEnumerable<Announcement>;
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<form method="post" asp-action="buscar" asp-controller="Home">
+    <div class="form-group">
+        <label for="exampleInputEmail1">Buscar por titulo</label>
+        <input type="text" class="form-control" id="buscar" aria-describedby="buscar" placeholder="Enter text...." name="buscar">
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Buscar</button>
+</form>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#Id</th>
+            <th scope="col">Titulo</th>
+            <th scope="col">Link</th>
+            <th scope="col">Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th scope="row">@item.id</th>
+                <td>@item.title</td>
+                <td>@item.link</td>
+                <td>@item.date</td>
+            </tr>
+        }
+    </tbody>
+</table>

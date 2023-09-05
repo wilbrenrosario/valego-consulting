@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.EntityFrameworkCore;
 using System.Text.Json;
 using valego.application;
 using valego.core.Models;
@@ -23,6 +24,7 @@ namespace valego.infrastructure.Sql.Commands.GenerarDataEnDB
 
             var listado = JsonSerializer.Deserialize<List<Announcement>>(resultString, new 
                 JsonSerializerOptions() { PropertyNameCaseInsensitive = true });
+            await _context.Announcement.ExecuteDeleteAsync();
             await _context.Announcement.AddRangeAsync(listado);
             await _context.SaveChangesAsync();
 

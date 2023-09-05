@@ -20,8 +20,4 @@
     <ProjectReference Include="..\valego.core\valego.core.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Sql\Commands\FiltrarPorTitulo\" />
-  </ItemGroup>
-
 </Project>
