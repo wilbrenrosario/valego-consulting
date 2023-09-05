@@ -7,7 +7,11 @@ Y tambien de manera visual tienes una solucion [valego.web.mvc] sencilla, que de
 
 Dejare muestras de imagenes igualmente. En fin, espero sea de su agrado.
 
-# Tecnologias y herramientas
+## Importante
+Antes de correr el proyecto, generar la migracion de la base de datos utilizando en el Package Manager Console el siguiente comando, [Update-Database], esto en caso de que ya tiene la carpeta de migracion (esto creara la base de datos y las tablas necesarias para ejecutar en su localhost o conexion string), de igual forma si no le funcionara este comando, eliminar la carpeta de migracion, y ejecutar [Add-Migrator "Initial Migration"] y ahora si luego [Update-Database], esto en caso que no funcione a la primera el primer comando.
+
+
+## Tecnologias y herramientas
 * .Net Core 7
 * Clean Architecture
 * WEB MVC
